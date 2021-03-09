@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - main
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.STATISK_TEST_S3_CLIENT_ID }}
   AWS_DEFAULT_REGION: 'eu-west-1'
