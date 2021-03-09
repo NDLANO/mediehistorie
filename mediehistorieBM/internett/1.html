@@ -1,0 +1,164 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>MEDIEHISTORIER: Internett - Et nettverk av nettverk</title> 
+	<meta name="description" content="«Mediehistorier» omhandler hovedtrekkene i internasjonal mediehistorie. Teksten forteller hvordan de ulike mediene som boka, avisen, telekommunikasjonen, fotografiet, radioen, filmen, fjernsynet, datamaskinen og internett har oppstått og utviklet seg. Laget til faget Medie- og informasjonskunnskap for Nasjonal Digital Læringsarena, NDLA."> 
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:300,400' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="../css/jquery.mobile.structure-1.3.0.min.css" />
+	<link rel="stylesheet" href="../css/medhist-theme.min.css" />
+	<link rel="stylesheet" href="../css/medhist.css" />
+	
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+	<script src="../js/jquery.fitvids.js"></script>
+	<script src="../js/medhist.js"></script>
+
+</head> 
+<body> 
+
+<!-- page -->
+<div data-role="page" id="page" data-theme="a" data-index="1">
+	
+	<!-- content -->
+	<div class="main" data-role="content">
+		<div class="nav-button nav-button-home"></div>
+		<div class="nav-button nav-button-left"></div>
+		<div class="nav-button nav-button-right"></div>
+
+		<!-- timeline -->
+		<div class="timelinecontainer">
+			<h2>ARPANET</h2>
+			<div class="timeline">
+				<table data-role="table" class="timeline-responsive" id="milestones-table"class="nav-footer">
+					<thead>
+						<tr>
+							<th>1957</th>
+							<th>1958</th>
+							<th>1960</th>
+							<th>1969</th>
+							<th>1973</th>
+							<th>1974</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Sputnik </td>
+							<td>ARPA, det amerikanske forsvarets organ for avansert forskning </td>
+							<td>J.C.R. Licklider ser for seg et «intergalaktisk datanettverk» </td>
+							<td>ARPANET forbinder datamaskiner ved fire universiteter </td>
+							<td>Telegiganten AT&T avslår tilbud om å overta ARPANET</td>
+							<td>Internet Protocol (TCP/IP), Vint Cerf og Bob Kahn </td>
+						</tr>
+					</tbody>
+				</table>
+			</div>			
+		</div>		
+		<!-- /timeline -->
+
+		<div class="contentarea">
+			<div  class="content-primary" >
+				<h1>Et nettverk av nettverk</h1>
+
+
+				<!-- bilde med popup - primary content -->		
+				<div class="imagebox image-intro">
+					<!-- popup -->
+					<div data-role="popup" id="popupImage1">
+						<img src="images/Arpanet_1974.png" alt="Kart over utbredelsen av ARPANET i september 1974." />
+						<p>
+							<span class="credits">Leverandør: Wikimedia Commons | CC (by sa)</span>
+						</p>
+					</div>
+					<!-- bilde -->
+					<div>
+						<a href="#popupImage1" data-rel="popup" data-position-to="window" data-transition="pop">
+							<img src="images/Arpanet_1974.png" alt="Kart over utbredelsen av ARPANET i september 1974."></a>
+					</div>
+					<!-- bildetekst -->
+					<div class="caption">
+						<p>Kart over ARPANET i september 1974. Noden lengst til høyre er Kjeller i Norge.</p>
+					</div>
+				</div>
+				<!-- /bilde med popup -->
+				
+
+				<div data-role="popup" id="popupImage">
+					<img src="images/Arpanet_1974.png" alt="Slik så tidlige e-poster ut." />
+				</div>
+				<p>Fire datamaskiner knyttet sammen i et nettverk. Det var starten på Internett. Året var 1969, nettet var amerikansk, og det ble kalt ARPANET.</p>
+				<p>Fire år senere ble Norge knyttet til som det aller første landet utenfor USA. Nettet hadde da vokst til 40 noder som hver kunne betjene tre–fire datamaskiner. I dag er det ingen som vet sikkert hvor mange maskiner det består av. Sannsynligvis var det mer enn en milliard domener på nettet i 2012.</p>
+				<p>Internett er et nettverk som knytter millioner av ulike små og store nettverk sammen. Teknologien som gjorde dette mulig, var først og fremst noe så kjedelig som en «protokoll» med det nerdete navnet TCP/IP. Denne protokollen ble brukt første gang i 1973, og det er den som bestemmer hvordan maskinen din skal dele opp for eksempel en bildefil i passelige «pakker», og gi hver av dem en adresse som gjør at de finner fram gjennom en rekke forskjellige nett og maskiner helt fram til bestemors smarttelefon. Der sørger den så for at alle pakkene kommer fram og blir satt sammen igjen til det bildet du sendte.</p>
+				<p>Det geniale er at dette gjør den helt uten noen sentral kontroll som bestemmer hvilken vei hver enkelt datapakke skal ta. Om store deler av nettet blir skrudd av eller slått ut av en feil, så vil bare pakkene finne andre veier fram til mottakeren. Hvis en pakke blir borte på veien, sendes den bare på nytt. Alt dette gjør Internett til et svært robust nettverk.</p>
+			</div>
+		</div>
+		<div class="content-secondary">
+			<div class="secondary">
+				<div class="videocontainer">
+					<iframe width="288" height="216" src="http://www.youtube.com/embed/9Ic9bVEzoqk?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<h2>Satellitten som satte fart i utviklingen</h2>
+				<p>Amerikanerne ble tatt på sengen da russerne inntok verdensrommet med satellitten «Sputnik» i 1957. Forskningsprogrammet ARPA ble startet for å skape militær teknologi som var bedre enn russernes. Forskerne i ARPA ble sentrale i utviklingen av internett.</p>
+			</div>
+			<div class="secondary">
+				<div class="videocontainer">
+					<iframe  width="288" height="216" src="http://www.youtube.com/embed/9hIQjrMHTv4?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<h2>Internetts historie</h2>
+				<p>En kort film som tar deg gjennom utviklingen av Internettet fra starten helt fram til vår tid.</p>
+			</div>
+
+			<!-- divider -->
+			<div class="divider"></div>
+						
+			<!-- video -->
+			<div class="secondary">
+				<div class="nrk-image hidden">
+					<a href="http://www.nrk.no/embed/PS*27306" target="_blank"><img src="http://nrk.no/serum/image/ps/27306/320" alt=""></a>
+				</div>
+				<div class="nrk-video-container">
+					<div class="videocontainer">
+						<div class="nrk-video" data-nrk-id="27306"></div><script src="http://nrk.no/serum/latest/js/video_embed.js"></script>
+					</div>
+				</div>
+				<h2>Internetts historie på ett minutt</h2>
+				<p>En kortversjon av de viktigste milepælene i Internetts historie.</p>
+			</div>
+			<!-- /video -->
+			
+			<div class="secondary ">
+					<div class="videocontainer">
+					<iframe width="288" height="216" src="http://www.youtube.com/embed/PyssYLlGWy0?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<h2>Han som fant opp TCP/IP-protokollen</h2>
+				<p>1. januar 1983 ble det bestemt at alle datamaskinene i ARPANET skulle kommunisere ved hjelp av TCP-IP-protokollen. Det ble startskuddet på en eksplosiv utvikling med dagens globale Internett som resultat.</p>
+				<p>Hør Vint Cerf fortelle om hva som skjedde &ndash; og hva du kan vente deg i nær framtid.
+			</div>
+		</div>
+	</div>
+	<!-- /content -->
+	
+	<!-- footer -->
+	<div data-role="footer" data-id="my-footer" data-theme="a">
+		<div class="nav-footer"  data-type="horizontal">
+			<a href="../menu.html" data-role="button" data-inline="true" data-iconpos="notext" data-inline="true" data-iconpos="notext" data-icon="home" data-transition="slidefade" data-direction="reverse"></a>
+			<a href="1.html" data-role="button" data-inline="true" data-iconpos="notext" data-transition="slidefade" class="ui-btn-active">1</a>
+			<a href="2.html" data-role="button" data-inline="true" data-iconpos="notext" data-transition="slidefade">2</a>
+			<a href="3.html" data-role="button" data-inline="true" data-iconpos="notext" data-transition="slidefade">3</a>
+			<a href="4.html" data-role="button" data-inline="true" data-iconpos="notext" data-transition="slidefade">4</a>
+			<a href="5.html" data-role="button" data-inline="true" data-iconpos="notext" data-transition="slidefade">5</a>
+			<a href="6.html" data-role="button" data-inline="true" data-iconpos="notext" data-transition="slidefade">6</a>
+			<a href="7.html" data-role="button" data-inline="true" data-iconpos="notext" data-transition="slidefade">7</a>
+			<a href="8.html" data-role="button" data-inline="true" data-iconpos="notext" data-transition="slidefade">8</a>
+		</div>
+	</div>
+	<!-- /footer -->
+		
+</div>	
+<!-- /page -->
+
+</body>
+</html>
